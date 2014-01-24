@@ -147,7 +147,7 @@ Before investing too much time in starting a business around open data, have a l
 * [data.gov apps](https://www.data.gov/applications)
 * [The Best Planning Apps for 2014](http://www.planetizen.com/node/66853)
 * [London Air](http://www.londonair.org.uk/)
-* http://hacks.youngrewiredstate.org/events/YRS2013
+* [YRS Hacks](http://hacks.youngrewiredstate.org/events/YRS2013)
 
 
 ## More open data
@@ -158,7 +158,9 @@ Before investing too much time in starting a business around open data, have a l
 
 
 ---
-Last edited: 24 January 2014, 17:50
+
+Please sent corrections and updates to ewan.klein [at] inf.ed.ac.uk
+Last edited: 24 January 2014, 20:08
 
 
 
