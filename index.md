@@ -7,7 +7,7 @@ Openness has a definition: [The Open Definition](http://opendefinition.org)
 Other key points:
 
 * The data must be *machine readable* (this doesn't just mean digital)
-* The data must be published under an *open licence* (e.g. [Creative Commons](http://creativecommons.org), [Open Data Commons](http://opendatacommons.org/licenses/), [Open Government Licence](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/)
+* The data must be published under an *open licence* (e.g. [Creative Commons](http://creativecommons.org), [Open Data Commons](http://opendatacommons.org/licenses/), [Open Government Licence](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/). See also this [Publisher's Guide to Open Licenses](http://theodi.org/guides/publishers-guide-open-data-licensing).
 
 Key not-for-profit organisations involved in promoting and using open data:
 
@@ -24,11 +24,18 @@ Key not-for-profit organisations involved in promoting and using open data:
 Overviews:
 
 * [Country Open Data Census](http://census.okfn.org/country)
-* [Open Government Partnership](http://www.opengovpartnership.org/countries)
 * [Datahub](http://datahub.io)
-* http://en.wikipedia.org/wiki/Open_data
+* [Wikipedia Open Data page](http://en.wikipedia.org/wiki/Open_data)
 
-Country Portals:
+Trans-national initiatives:
+
+* [Open Government Partnership](http://www.opengovpartnership.org/countries)
+* [G8 Open Data Charter](https://www.gov.uk/government/publications/open-data-charter/g8-open-data-charter-and-technical-annex)
+* [INSPIRE Directive](http://inspire.ec.europa.eu/index.cfm/pageid/48)
+* [EU Public Datasets](http://publicdata.eu)
+
+
+Some Country Data Portals:
 
 * [UK Government Data](hhttp://data.gov.uk/data/search)
 * [US Government Data](http://www.data.gov)
@@ -51,7 +58,7 @@ Elsewhere:
 
 ## Data in Scotland
 
-Although some of the data below is open, parts of it (e.g. Historic Scotland's [One Scotland Mapping Agreemen](http://data.historic-scotland.gov.uk/pls/htmldb/f?p=2100:10:0#)) are unfortunately subject to non-open licenses. 
+Although some of the data below is open, parts of it (e.g. Historic Scotland's [One Scotland Mapping Agreemen](http://data.historic-scotland.gov.uk/pls/htmldb/f?p=2100:10:0#)) are subject to non-open licenses, or are not possible to download in machine-readable format. Do check.
 
 Cities:
 
@@ -65,23 +72,58 @@ Scottish Government:
 * [Scottish Neighourhood Statistics: CSV data downloads](http://www.sns.gov.uk/Downloads/DownloadHome.aspx)
 * [Scottish Neighourhood Statistics : Linked data pilot](http://www.opendatascotland.org)
 * [Scottish Government Data Lab space](http://labs.data.scotland.gov.uk)
+* [Government Statistics](http://www.scotland.gov.uk/Topics/Statistics)
 
 
 Public Notices:
 
 * [TellMeScotland](http://www.tellmescotland.gov.uk)
 
+Scottish Parliament: 
 
-Environment
+* [MSP Allowances](http://mspallowances.scottish.parliament.uk)
+* [Scottish Parliament FOI Disclosure Logs](http://www.scottish.parliament.uk/help/17700.aspx)
 
-[SEPA Linked Data](http://data.sepa.org.uk)
-[Air Quality](http://www.scottishairquality.co.uk/data.php)
+
+Environment:
+
+* [SEPA Linked Data](http://data.sepa.org.uk)
+* [Air Quality](http://www.scottishairquality.co.uk/data.php)
+* [Scottish local authorities CO2 emissions reductions per Capita 2005-2011](https://www.google.com/fusiontables/DataSource?docid=1Lc2PtPSbTh1OG-KSf9OoXZFmUpALEI6Gejbb4yQ#rows:id=1)
+
+
+Galleries, Libraries, Archives, Museums (GLAM):
+
+* [CultureHack Scotland 2011](http://www.welcometosync.com/hacks/2011/about/data)
+* [CultureHack Scotland 2013](http://chs2013.herokuapp.com/docs)
+
+Miscellaneous:
+
+* [Edinbuzz (mainly FOI data)](http://edinbuzz.org.uk/data-directory/)
+* [University of Edinburgh Datashare](http://datashare.is.ed.ac.uk)
+
+* [Data tagged with 'Scotland' on the datahub](http://datahub.io/dataset?q=scotland) NB This is largely derived from the next set, which is mostly out-of-date, or not open. :-(
+* [Scotland's Data](https://sites.google.com/site/scotlandsdata/dataandvocabularies)
+
+
 
 
 ## Resources for learning about data
 
+Course and tools:
 
-Linked Data: [Euclid](http://euclid-project.eu)
+* [School of Data Courses](http://schoolofdata.org/courses/)
+* [School of Data Tools](http://schoolofdata.org/online-resources/)
+* [More School of Data Tools](http://schoolofdata.org/2013/11/08/think-tankers-data-toolbox/)
+* [Euclid (Linked Data)](http://euclid-project.eu)
+
+Dataviz:
+
+* [Data visualisation resources](http://ttdatavis.onthinktanks.org/data-visualisation-resources/)
+* [Big list of D3 examples](http://christopheviau.com/d3list/)
+* [Raw: vector-based visualisations](http://raw.densitydesign.org)
+
+
 
 ## So you have a cool idea?
 
@@ -92,13 +134,13 @@ Before investing too much time in starting a business around open data, have a l
 * [Knight Foundation funded projects](http://www.knightfoundation.org/grants/?sort=title)
 * [data.gov.uk apps](http://data.gov.uk/apps)
 * [data.gov apps](https://www.data.gov/applications)
-
-http://www.londonair.org.uk/
+* [The Best Planning Apps for 2014](http://www.planetizen.com/node/66853)
+* [London Air](http://www.londonair.org.uk/)
 
 
 ## More open data aggregators
 
-http://www.edinburghapps.net/data/
+[Edinburgh Apps](http://www.edinburghapps.net/data/)
 
 
 ---
