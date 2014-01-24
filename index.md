@@ -159,7 +159,8 @@ Before investing too much time in starting a business around open data, have a l
 
 ---
 
-Please sent corrections and updates to ewan.klein [at] inf.ed.ac.uk
+Please sent corrections and updates to ewan [at] inf.ed.ac.uk
+
 Last edited: 24 January 2014, 20:08
 
 
