@@ -34,7 +34,6 @@ Trans-national initiatives:
 * [INSPIRE Directive](http://inspire.ec.europa.eu/index.cfm/pageid/48)
 * [EU Public Datasets](http://publicdata.eu)
 
-
 Some Country Data Portals:
 
 * [UK Government Data](hhttp://data.gov.uk/data/search)
@@ -53,6 +52,7 @@ Elsewhere:
 * [Amsterdam](http://amsterdamopendata.nl/en)
 * [Gent](http://data.gent.be)
 * [San Francisco](https://data.sfgov.org)
+* [New York](https://data.ny.gov)
 * ...
 
 
@@ -101,7 +101,6 @@ Miscellaneous:
 
 * [Edinbuzz (mainly FOI data)](http://edinbuzz.org.uk/data-directory/)
 * [University of Edinburgh Datashare](http://datashare.is.ed.ac.uk)
-
 * [Data tagged with 'Scotland' on the datahub](http://datahub.io/dataset?q=scotland) NB This is largely derived from the next set, which is mostly out-of-date, or not open. :-(
 * [Scotland's Data](https://sites.google.com/site/scotlandsdata/dataandvocabularies)
 
@@ -110,6 +109,8 @@ Miscellaneous:
 
 ## Resources for learning about data
 
+
+
 Course and tools:
 
 * [School of Data Courses](http://schoolofdata.org/courses/)
@@ -117,13 +118,23 @@ Course and tools:
 * [More School of Data Tools](http://schoolofdata.org/2013/11/08/think-tankers-data-toolbox/)
 * [Euclid (Linked Data)](http://euclid-project.eu)
 
+Tabular Data
+
+* [2014: The Year of CSV](http://theodi.org/blog/2014-the-year-of-csv)
+* [Versioning CSV](http://theodi.org/blog/adapting-git-simple-data)
+* [Google Fusion tables tutorial](https://sites.google.com/site/fusiontablestalks/talks/fusion-tables-where-2-0-workshop)
+* [More on Fusion tables](http://www.theguardian.com/news/datablog/2012/mar/24/guardian-open-weekend-google-fusion)
+
 Dataviz:
 
 * [Data visualisation resources](http://ttdatavis.onthinktanks.org/data-visualisation-resources/)
 * [Big list of D3 examples](http://christopheviau.com/d3list/)
 * [Raw: vector-based visualisations](http://raw.densitydesign.org)
 
+Map APIs
 
+* [EDINA Map Slides (2013) (PDF download)](https://raw.github.com/ewan-klein/ilwhack/master/geo/edina-geo-apis.pdf)
+* [EDINA Map Example HTML (2013) (ZIP download)](https://raw.github.com/ewan-klein/ilwhack/master/geo/LeafletHTMLpages.zip)
 
 ## So you have a cool idea?
 
@@ -136,11 +147,14 @@ Before investing too much time in starting a business around open data, have a l
 * [data.gov apps](https://www.data.gov/applications)
 * [The Best Planning Apps for 2014](http://www.planetizen.com/node/66853)
 * [London Air](http://www.londonair.org.uk/)
+* http://hacks.youngrewiredstate.org/events/YRS2013
 
 
-## More open data aggregators
+## More open data
 
-[Edinburgh Apps](http://www.edinburghapps.net/data/)
+* [Guardian Newspaper datasets](http://www.theguardian.com/news/datablog/interactive/2013/jan/14/all-our-datasets-index)
+* [Edinburgh Apps](http://www.edinburghapps.net/data/)
+* [YRS Datasets](https://youngrewiredstate.org/resources-for-coders/data-sets)
 
 
 ---
