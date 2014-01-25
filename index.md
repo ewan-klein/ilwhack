@@ -26,6 +26,7 @@ Overviews:
 * [Country Open Data Census](http://census.okfn.org/country)
 * [Datahub](http://datahub.io)
 * [Wikipedia Open Data page](http://en.wikipedia.org/wiki/Open_data)
+* [List of open data catalogues](http://datacatalogs.org)
 
 Trans-national initiatives:
 
@@ -36,9 +37,10 @@ Trans-national initiatives:
 
 Some Country Data Portals:
 
-* [UK Government Data](hhttp://data.gov.uk/data/search)
+* [UK Government Data](http://data.gov.uk/data/search)
 * [US Government Data](http://www.data.gov)
 * [French Government Data](http://www.data.gouv.fr)
+* [Indian Government Data](http://data.gov.in)
 
 UK City and Local Authority Portals:
 
