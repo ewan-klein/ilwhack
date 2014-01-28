@@ -1,5 +1,9 @@
 #Open Data: Resources and Tools
 
+## Introduction
+
+The following links provide a brief introduction to datasets, tools and examples for working with open data. The lists of country and city open data portals are extremely incomplete,  and just there to get you started. By contrast, I have attempted to be relatively complete on open data about Scotland, and would appreciate suggestions for further datasets to add.
+
 ## What is open data?
 
 Openness has a definition: [The Open Definition](http://opendefinition.org)
@@ -108,9 +112,7 @@ Miscellaneous:
 
 
 
-
 ## Resources for learning about data
-
 
 
 Course and tools:
@@ -163,7 +165,7 @@ Before investing too much time in starting a business around open data, have a l
 
 Please sent corrections and updates to ewan [at] inf.ed.ac.uk
 
-Last edited: 24 January 2014, 20:08
+Last edited: 28 January 2014, 10:32
 
 
 
