@@ -64,7 +64,7 @@ Elsewhere:
 
 ## Data in Scotland
 
-Although some of the data below is open, parts of it (e.g. Historic Scotland's [One Scotland Mapping Agreemen](http://data.historic-scotland.gov.uk/pls/htmldb/f?p=2100:10:0#)) are subject to non-open licenses, or are not possible to download in machine-readable format. Do check.
+Although some of the data below is open, parts of it (e.g. Historic Scotland's [One Scotland Mapping Agreement](http://data.historic-scotland.gov.uk/pls/htmldb/f?p=2100:10:0#)) are subject to non-open licenses, or are not possible to download in machine-readable format. Do check.
 
 Cities:
 
