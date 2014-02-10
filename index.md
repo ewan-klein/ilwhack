@@ -76,7 +76,7 @@ Cities:
 Scottish Government:
 
 * [Scottish Neighourhood Statistics: CSV data downloads](http://www.sns.gov.uk/Downloads/DownloadHome.aspx)
-* [Scottish Neighourhood Statistics : Linked data pilot](http://www.opendatascotland.org)
+* [Scottish Neighourhood Statistics : Linked data pilot](http://www.opendatascotland.org) (includes useful tutorial material!)
 * [Scottish Government Data Lab space](http://labs.data.scotland.gov.uk)
 * [Government Statistics](http://www.scotland.gov.uk/Topics/Statistics)
 
@@ -117,6 +117,7 @@ Miscellaneous:
 
 Course and tools:
 
+* [data.gov.uk intro to Open Data](http://data.gov.uk/blog/simple-intro-open-data)
 * [School of Data Courses](http://schoolofdata.org/courses/)
 * [School of Data Tools](http://schoolofdata.org/online-resources/)
 * [More School of Data Tools](http://schoolofdata.org/2013/11/08/think-tankers-data-toolbox/)
@@ -163,9 +164,9 @@ Before investing too much time in starting a business around open data, have a l
 
 ---
 
-Please sent corrections and updates to ewan [at] inf.ed.ac.uk
+Please send corrections and updates to ewan [at] inf.ed.ac.uk
 
-Last edited: 28 January 2014, 10:32
+Last edited: 10 February 2014, 14:54
 
 
 
