@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5/leaflet.css" />
+ <!--[if lte IE 8]>
+     <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5/leaflet.ie.css" />
+ <![endif]-->
+</head>
+<body>
+<div id="map" style="width: 1020px; height: 700px"></div>
+
+<script src="http://cdn.leafletjs.com/leaflet-0.5/leaflet.js"></script>
+<script>
+
+var map = L.map('map').setView([55.945, -3.187], 10);
+
+L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
+    maxZoom: 18
+}).addTo(map);
+
+function onEachFeature(feature, layer) {
+    if (feature.properties && feature.properties.name) {
+        layer.bindPopup(feature.properties.name);
+    }
+}
+var edinburghhotels = {
+  "type": "FeatureCollection",
+  "features": [
+      {
+          "type": "Feature",
+          "id": "9772472",
+          "geometry": {
+		          "type": "Point",
+		          "coordinates": [-3.18738, 55.9508]
+    		},
+          "properties": {
+              "name": "Barcelo Edinburgh Carlton Hotel",
+              "popupContent": "Barcelo Edinburgh Carlton Hotel",
+              "sourceid": "6951350",
+              "country": "United Kingdom",
+              "countrycode": "GB",
+              "adminlevel1": "Scotland",
+              "adminlevel2": "City of Edinburgh",
+              "adminlevel3": "",
+              "adminlevel4": "",
+              "featuretype": "Hotel",
+              "custodian": "GeoNames",
+              "gazetteer": "GeoNames",
+              "scale": "unknown",
+              "centroid": "-3.18738, 55.9508",
+              "footprint": "http://unlock.edina.ac.uk/ws/footprintLookup?format=json&identifier=9772472"
+          }
+      },
+      {
+          "type": "Feature",
+          "id": "9772791",
+          "geometry": {
+		          "type": "Point",
+		          "coordinates": [-3.20092, 55.9444]
+          },
+          "properties": {
+              "name": "Best Western Edinburgh City Hotel",
+              "sourceid": "6951666",
+              "country": "United Kingdom",
+              "countrycode": "GB",
+              "adminlevel1": "Scotland",
+              "adminlevel2": "City of Edinburgh",
+              "adminlevel3": "",
+              "adminlevel4": "",
+              "featuretype": "Hotel",
+              "custodian": "GeoNames",
+              "gazetteer": "GeoNames",
+              "scale": "unknown",
+              "centroid": "-3.20092, 55.9444",
+              "footprint": "http://unlock.edina.ac.uk/ws/footprintLookup?format=json&identifier=9772791"
+          }
+      },
+      {
+          "type": "Feature",
+          "id": "8798774",
+          "geometry": {
+		          "type": "Point",
+		          "coordinates": [-3.21942, 55.95618]
+          },
+          "properties": {
+              "name": "Channings Hotel Edinburgh",
+              "sourceid": "6943897",
+              "country": "United Kingdom",
+              "countrycode": "GB",
+              "adminlevel1": "Scotland",
+              "adminlevel2": "City of Edinburgh",
+              "adminlevel3": "",
+              "adminlevel4": "",
+              "featuretype": "Hotel",
+              "custodian": "GeoNames",
+              "gazetteer": "GeoNames",
+              "scale": "unknown",
+              "centroid": "-3.21942, 55.95618",
+              "footprint": "http://unlock.edina.ac.uk/ws/footprintLookup?format=json&identifier=8798774"
+          }
+      },
+      {
+          "type": "Feature",
+          "id": "8799000",
+          "geometry": {
+		          "type": "Point",
+		          "coordinates": [-3.17875, 55.93877]
+		          },
+          "properties": {
+              "name": "Edinburgh Apartments Southside",
+              "sourceid": "6943938",
+              "country": "United Kingdom",
+              "countrycode": "GB",
+              "adminlevel1": "Scotland",
+              "adminlevel2": "City of Edinburgh",
+              "adminlevel3": "",
+              "adminlevel4": "",
+              "featuretype": "Hotel",
+              "custodian": "GeoNames",
+              "gazetteer": "GeoNames",
+              "scale": "unknown",
+              "centroid": "-3.17875, 55.93877",
+              "footprint": "http://unlock.edina.ac.uk/ws/footprintLookup?format=json&identifier=8799000"
+          }
+      },
+      {
+          "type": "Feature",
+          "id": "5830727",
+          "geometry": {
+		          "type": "Point",
+		          "coordinates": [-3.18845450878143, 55.9506115302535]
+		          },
+          "properties": {
+              "name": "Edinburgh Backpackers Hostel",
+              "sourceid": "6615550",
+              "country": "United Kingdom",
+              "countrycode": "GB",
+              "adminlevel1": "Scotland",
+              "adminlevel2": "City of Edinburgh",
+              "adminlevel3": "",
+              "adminlevel4": "",
+              "featuretype": "Hotel",
+              "custodian": "GeoNames",
+              "gazetteer": "GeoNames",
+              "scale": "unknown",
+              "centroid": "-3.18845450878143, 55.9506115302535",
+              "footprint": "http://unlock.edina.ac.uk/ws/footprintLookup?format=json&identifier=5830727"
+          }
+      },
+      {
+          "type": "Feature",
+          "id": "5828867",
+          "geometry": {
+		          "type": "Point",
+		          "coordinates": [-3.2798, 55.9559]
+		          },
+          "properties": {
+              "name": "Edinburgh Capital Hotel",
+              "sourceid": "6467047",
+              "country": "United Kingdom",
+              "countrycode": "GB",
+              "adminlevel1": "Scotland",
+              "adminlevel2": "City of Edinburgh",
+              "adminlevel3": "",
+              "adminlevel4": "",
+              "featuretype": "Hotel",
+              "custodian": "GeoNames",
+              "gazetteer": "GeoNames",
+              "scale": "unknown",
+              "centroid": "-3.2798, 55.9559",
+              "footprint": "http://unlock.edina.ac.uk/ws/footprintLookup?format=json&identifier=5828867"
+          }
+      },
+      {
+          "type": "Feature",
+          "id": "9768180",
+          "geometry": {
+		          "type": "Point",
+		          "coordinates": [-3.26917, 55.9784]
+		          },
+          "properties": {
+              "name": "Edinburgh Globetrotter Inns",
+              "sourceid": "6948172",
+              "country": "United Kingdom",
+              "countrycode": "GB",
+              "adminlevel1": "Scotland",
+              "adminlevel2": "City of Edinburgh",
+              "adminlevel3": "",
+              "adminlevel4": "",
+              "featuretype": "Hotel",
+              "custodian": "GeoNames",
+              "gazetteer": "GeoNames",
+              "scale": "unknown",
+              "centroid": "-3.26917, 55.9784",
+              "footprint": "http://unlock.edina.ac.uk/ws/footprintLookup?format=json&identifier=9768180"
+          }
+      },
+      {
+          "type": "Feature",
+          "id": "5829010",
+          "geometry": {
+		          "type": "Point",
+		          "coordinates": [-3.2183, 55.9507]
+		          },
+          "properties": {
+              "name": "Edinburgh Residence",
+              "sourceid": "6467438",
+              "country": "United Kingdom",
+              "countrycode": "GB",
+              "adminlevel1": "Scotland",
+              "adminlevel2": "City of Edinburgh",
+              "adminlevel3": "",
+              "adminlevel4": "",
+              "featuretype": "Hotel",
+              "custodian": "GeoNames",
+              "gazetteer": "GeoNames",
+              "scale": "unknown",
+              "centroid": "-3.2183, 55.9507",
+              "footprint": "http://unlock.edina.ac.uk/ws/footprintLookup?format=json&identifier=5829010"
+          }
+      },
+      {
+          "type": "Feature",
+          "id": "5829601",
+          "geometry": {
+		          "type": "Point",
+		          "coordinates": [-3.1884, 55.9485]
+		          },
+          "properties": {
+              "name": "Euro Hostel Edinburgh",
+              "sourceid": "6493698",
+              "country": "United Kingdom",
+              "countrycode": "GB",
+              "adminlevel1": "Scotland",
+              "adminlevel2": "City of Edinburgh",
+              "adminlevel3": "",
+              "adminlevel4": "",
+              "featuretype": "Hotel",
+              "custodian": "GeoNames",
+              "gazetteer": "GeoNames",
+              "scale": "unknown",
+              "centroid": "-3.1884, 55.9485",
+              "footprint": "http://unlock.edina.ac.uk/ws/footprintLookup?format=json&identifier=5829601"
+          }
+      },
+      {
+          "type": "Feature",
+          "id": "5829095",
+          "geometry": {
+		          "type": "Point",
+		          "coordinates": [-3.1884, 55.9485]
+		          },
+          "properties": {
+              "name": "Euro Hostel Edinburgh Halls",
+              "sourceid": "6467622",
+              "country": "United Kingdom",
+              "countrycode": "GB",
+              "adminlevel1": "Scotland",
+              "adminlevel2": "City of Edinburgh",
+              "adminlevel3": "",
+              "adminlevel4": "",
+              "featuretype": "Hotel",
+              "custodian": "GeoNames",
+              "gazetteer": "GeoNames",
+              "scale": "unknown",
+              "centroid": "-3.1884, 55.9485",
+              "footprint": "http://unlock.edina.ac.uk/ws/footprintLookup?format=json&identifier=5829095"
+          }
+      },
+      {
+          "type": "Feature",
+          "id": "5829165",
+          "geometry": {
+		          "type": "Point",
+		          "coordinates": [-3.1874, 55.9571]
+		          },
+          "properties": {
+              "name": "Express by Holiday Inn Edinburgh City Centre",
+              "sourceid": "6467772",
+              "country": "United Kingdom",
+              "countrycode": "GB",
+              "adminlevel1": "Scotland",
+              "adminlevel2": "City of Edinburgh",
+              "adminlevel3": "",
+              "adminlevel4": "",
+              "featuretype": "Hotel",
+              "custodian": "GeoNames",
+              "gazetteer": "GeoNames",
+              "scale": "unknown",
+              "centroid": "-3.1874, 55.9571",
+              "footprint": "http://unlock.edina.ac.uk/ws/footprintLookup?format=json&identifier=5829165"
+          }
+      },
+      {
+          "type": "Feature",
+          "id": "5829379",
+          "geometry": {
+		          "type": "Point",
+		          "coordinates": [-3.3595, 55.9441]
+		          },
+          "properties": {
+              "name": "Hilton Edinburgh Airport",
+              "sourceid": "6468818",
+              "country": "United Kingdom",
+              "countrycode": "GB",
+              "adminlevel1": "Scotland",
+              "adminlevel2": "City of Edinburgh",
+              "adminlevel3": "",
+              "adminlevel4": "",
+              "featuretype": "Hotel",
+              "custodian": "GeoNames",
+              "gazetteer": "GeoNames",
+              "scale": "unknown",
+              "centroid": "-3.3595, 55.9441",
+              "footprint": "http://unlock.edina.ac.uk/ws/footprintLookup?format=json&identifier=5829379"
+          }
+      },
+      {
+          "type": "Feature",
+          "id": "5828984",
+          "geometry": {
+		          "type": "Point",
+		          "coordinates": [-3.207, 55.95]
+		          },
+          "properties": {
+              "name": "Hilton Edinburgh Caledonian",
+              "sourceid": "6467360",
+              "country": "United Kingdom",
+              "countrycode": "GB",
+              "adminlevel1": "Scotland",
+              "adminlevel2": "City of Edinburgh",
+              "adminlevel3": "",
+              "adminlevel4": "",
+              "featuretype": "Hotel",
+              "custodian": "GeoNames",
+              "gazetteer": "GeoNames",
+              "scale": "unknown",
+              "centroid": "-3.207, 55.95",
+              "footprint": "http://unlock.edina.ac.uk/ws/footprintLookup?format=json&identifier=5828984"
+          }
+      },
+      {
+          "type": "Feature",
+          "id": "5829396",
+          "geometry": {
+		          "type": "Point",
+		          "coordinates": [-3.2173, 55.947]
+		          },
+          "properties": {
+              "name": "Hilton Edinburgh Grosvenor",
+              "sourceid": "6470718",
+              "country": "United Kingdom",
+              "countrycode": "GB",
+              "adminlevel1": "Scotland",
+              "adminlevel2": "City of Edinburgh",
+              "adminlevel3": "",
+              "adminlevel4": "",
+              "featuretype": "Hotel",
+              "custodian": "GeoNames",
+              "gazetteer": "GeoNames",
+              "scale": "unknown",
+              "centroid": "-3.2173, 55.947",
+              "footprint": "http://unlock.edina.ac.uk/ws/footprintLookup?format=json&identifier=5829396"
+          }
+      },
+      {
+          "type": "Feature",
+          "id": "5829033",
+          "geometry": {
+		          "type": "Point",
+		          "coordinates": [-3.2429, 55.9557]
+		          },
+          "properties": {
+              "name": "Holiday Inn Edinburgh North",
+              "sourceid": "6467469",
+              "country": "United Kingdom",
+              "countrycode": "GB",
+              "adminlevel1": "Scotland",
+              "adminlevel2": "City of Edinburgh",
+              "adminlevel3": "",
+              "adminlevel4": "",
+              "featuretype": "Hotel",
+              "custodian": "GeoNames",
+              "gazetteer": "GeoNames",
+              "scale": "unknown",
+              "centroid": "-3.2429, 55.9557",
+              "footprint": "http://unlock.edina.ac.uk/ws/footprintLookup?format=json&identifier=5829033"
+          }
+      },
+      {
+          "type": "Feature",
+          "id": "9768272",
+          "geometry": {
+		          "type": "Point",
+		          "coordinates": [-3.26623, 55.9425]
+		          },
+          "properties": {
+              "name": "Holiday Inn Hotel in Edinburgh",
+              "sourceid": "6948190",
+              "country": "United Kingdom",
+              "countrycode": "GB",
+              "adminlevel1": "Scotland",
+              "adminlevel2": "City of Edinburgh",
+              "adminlevel3": "",
+              "adminlevel4": "",
+              "featuretype": "Hotel",
+              "custodian": "GeoNames",
+              "gazetteer": "GeoNames",
+              "scale": "unknown",
+              "centroid": "-3.26623, 55.9425",
+              "footprint": "http://unlock.edina.ac.uk/ws/footprintLookup?format=json&identifier=9768272"
+          }
+      },
+      {
+          "type": "Feature",
+          "id": "9772800",
+          "geometry": {
+		          "type": "Point",
+		          "coordinates": [-3.70196, 55.898]
+		          },
+          "properties": {
+              "name": "Hotel George Edinburgh",
+              "sourceid": "6951676",
+              "country": "United Kingdom",
+              "countrycode": "GB",
+              "adminlevel1": "Scotland",
+              "adminlevel2": "West Lothian",
+              "adminlevel3": "",
+              "adminlevel4": "",
+              "featuretype": "Hotel",
+              "custodian": "GeoNames",
+              "gazetteer": "GeoNames",
+              "scale": "unknown",
+              "centroid": "-3.70196, 55.898",
+              "footprint": "http://unlock.edina.ac.uk/ws/footprintLookup?format=json&identifier=9772800"
+          }
+      },
+      {
+          "type": "Feature",
+          "id": "5829878",
+          "geometry": {
+		          "type": "Point",
+		          "coordinates": [-3.1896, 55.9424]
+		          },
+          "properties": {
+              "name": "Ibis Edinburgh Centre",
+              "sourceid": "6507474",
+              "country": "United Kingdom",
+              "countrycode": "GB",
+              "adminlevel1": "Scotland",
+              "adminlevel2": "City of Edinburgh",
+              "adminlevel3": "",
+              "adminlevel4": "",
+              "featuretype": "Hotel",
+              "custodian": "GeoNames",
+              "gazetteer": "GeoNames",
+              "scale": "unknown",
+              "centroid": "-3.1896, 55.9424",
+              "footprint": "http://unlock.edina.ac.uk/ws/footprintLookup?format=json&identifier=5829878"
+          }
+      },
+      {
+          "type": "Feature",
+          "id": "8797611",
+          "geometry": {
+		          "type": "Point",
+		          "coordinates": [-3.18622, 55.95126]
+		          },
+          "properties": {
+              "name": "Jurys Inn Edinburgh Hotel",
+              "sourceid": "6943694",
+              "country": "United Kingdom",
+              "countrycode": "GB",
+              "adminlevel1": "Scotland",
+              "adminlevel2": "City of Edinburgh",
+              "adminlevel3": "",
+              "adminlevel4": "",
+              "featuretype": "Hotel",
+              "custodian": "GeoNames",
+              "gazetteer": "GeoNames",
+              "scale": "unknown",
+              "centroid": "-3.18622, 55.95126",
+              "footprint": "http://unlock.edina.ac.uk/ws/footprintLookup?format=json&identifier=8797611"
+          }
+      },
+      {
+          "type": "Feature",
+          "id": "9768451",
+          "geometry": {
+		          "type": "Point",
+		          "coordinates": [-3.1688, 55.9783]
+		          },
+          "properties": {
+              "name": "Malmaison Edinburgh",
+              "sourceid": "6948361",
+              "country": "United Kingdom",
+              "countrycode": "GB",
+              "adminlevel1": "Scotland",
+              "adminlevel2": "City of Edinburgh",
+              "adminlevel3": "",
+              "adminlevel4": "",
+              "featuretype": "Hotel",
+              "custodian": "GeoNames",
+              "gazetteer": "GeoNames",
+              "scale": "unknown",
+              "centroid": "-3.1688, 55.9783",
+              "footprint": "http://unlock.edina.ac.uk/ws/footprintLookup?format=json&identifier=9768451"
+          }
+      }
+  ],
+  "totalResults": "36"
+}
+
+L.geoJson(edinburghhotels, {
+    onEachFeature: onEachFeature
+}).addTo(map);
+
+
+</script>
+</body>
+</html>
