@@ -89,6 +89,7 @@ Scottish Parliament:
 
 * [MSP Allowances](http://mspallowances.scottish.parliament.uk)
 * [Scottish Parliament FOI Disclosure Logs](http://www.scottish.parliament.uk/help/17700.aspx)
+* [Scottish Parliament visitor numbers, 2013](https://github.com/ewan-klein/ilwhack/blob/master/ScottishParliament/Parliament%20Visitor%20Statistics%202013.csv)
 
 
 Environment:
