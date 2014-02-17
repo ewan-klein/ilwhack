@@ -136,6 +136,7 @@ Course and tools:
 * [School of Data Tools](http://schoolofdata.org/online-resources/)
 * [More School of Data Tools](http://schoolofdata.org/2013/11/08/think-tankers-data-toolbox/)
 * [Euclid (Linked Data)](http://euclid-project.eu)
+* [Introduction to SPARQL](https://www.cambridgesemantics.com/en_GB/semantic-university/learn-sparql)
 
 Tabular Data
 
