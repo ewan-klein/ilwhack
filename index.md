@@ -68,22 +68,35 @@ Although some of the data below is open, parts of it (e.g. Historic Scotland's [
 
 Cities:
 
-* [Glasgow](http://data.glasgow.gov.uk)
 * [Edinburgh](https://github.com/edinburghcouncil/datasets)
+* [Glasgow](http://data.glasgow.gov.uk)
 * [Aberdeen](http://www.aberdeencity.gov.uk/open_data)
 
 
-Scottish Government:
+SNS & SIMD:
 
 * [Scottish Neighourhood Statistics: CSV data downloads](http://www.sns.gov.uk/Downloads/DownloadHome.aspx)
-* [Scottish Neighourhood Statistics : Linked data pilot](http://www.opendatascotland.org) (includes useful tutorial material!)
+* [Scottish Neighourhood Statistics : Linked data pilot](http://www.opendatascotland.org)
+* [Scottish Index of Multiple Deprivation as linked data](http://data.opendatascotland.org/themes/deprivation)
+* [Schools in Scotland](http://data.opendatascotland.org/data/educational-establishments)
+* [Dataset relating schools and data zones according to where the pupils from the school live](http://data.opendatascotland.org/data/education/pupils-by-school-and-datazone)
+* [Documentation on accessing OpenDataScotland data by API](http://data.opendatascotland.org/docs)
+* [Tutorial on visualising data using D3.js and SPARQL](http://schools.opendatascotland.org)
+
+
+Other Scottish Government:
+
 * [Scottish Government Data Lab space](http://labs.data.scotland.gov.uk)
 * [Government Statistics](http://www.scotland.gov.uk/Topics/Statistics)
+* [Scotland's Census Data Explorer](http://www.scotlandscensus.gov.uk/ods-web/home.html)
+* [Policies, publications and news on Law, Order & Public Safety (experimental site)](https://alpha.scotland.gov.uk/government/topics)
+
 
 
 Public Notices:
 
 * [TellMeScotland](http://www.tellmescotland.gov.uk)
+* [Public Sector Contracting Opportunities and Awards](http://www.publiccontractsscotland.gov.uk)
 
 Scottish Parliament: 
 
@@ -134,8 +147,12 @@ Tabular Data
 Dataviz:
 
 * [Data visualisation resources](http://ttdatavis.onthinktanks.org/data-visualisation-resources/)
+* [D3](http://d3js.org)
+* [D3 Gallery](https://github.com/mbostock/d3/wiki/Gallery)
 * [Big list of D3 examples](http://christopheviau.com/d3list/)
 * [Raw: vector-based visualisations](http://raw.densitydesign.org)
+* [Interactive Data Visualisation Book by Scott Murray (online)](http://chimera.labs.oreilly.com/books/1230000000345)
+
 
 Map APIs
 
