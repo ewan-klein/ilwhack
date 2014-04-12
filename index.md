@@ -98,6 +98,7 @@ Galleries, Libraries, Archives, Museums (GLAM):
 
 * [CultureHack Scotland 2011](http://www.welcometosync.com/hacks/2011/about/data)
 * [CultureHack Scotland 2013](http://chs2013.herokuapp.com/docs)
+* [Edinburgh Festivals API](http://api.festivalslab.com)
 
 Miscellaneous:
 
