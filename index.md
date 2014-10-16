@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The following links provide a brief introduction to datasets, tools and examples for working with open data. The lists of country and city open data portals are extremely incomplete,  and just there to get you started. By contrast, I have attempted to be relatively complete on open data about Scotland, and would appreciate suggestions for further datasets to add.
+The following links provide a brief introduction to datasets, tools and examples for working with open data. The lists of country and city open data portals are extremely incomplete,  and just there to get you started. 
 
 ## What is open data?
 
@@ -27,7 +27,7 @@ Key not-for-profit organisations involved in promoting and using open data:
 
 Overviews:
 
-* [Country Open Data Census](http://census.okfn.org/country)
+* [Country Open Data Census](http://global.census.okfn.org)
 * [Datahub](http://datahub.io)
 * [Wikipedia Open Data page](http://en.wikipedia.org/wiki/Open_data)
 * [List of open data catalogues](http://datacatalogs.org)
@@ -39,7 +39,7 @@ Trans-national initiatives:
 * [INSPIRE Directive](http://inspire.ec.europa.eu/index.cfm/pageid/48)
 * [EU Public Datasets](http://publicdata.eu)
 
-Some Country Data Portals:
+Some Country-level Open Data Portals:
 
 * [UK Government Data](http://data.gov.uk/data/search)
 * [US Government Data](http://www.data.gov)
@@ -53,76 +53,19 @@ UK City and Local Authority Portals:
 * [UK Department for Communities and Local Government](http://opendatacommunities.org)
 * [OpenlyLocal](http://openlylocal.com)
 
-Elsewhere:
+Scotland:
+
+* [Scotland's Open Data Catalogues](http://okfnscot.github.io/open-data-scotland/)
+* [Nesta's Open Data Scotland Initiative](http://www.nesta.org.uk/project/open-data-scotland)
+* [The Scottish Government Data Strategy](http://www.scotland.gov.uk/Topics/Economy/digital/digitalservices/datamanagement)
+
+
+Miscellaneous list of other places:
 
 * [Amsterdam](http://amsterdamopendata.nl/en)
 * [Gent](http://data.gent.be)
 * [San Francisco](https://data.sfgov.org)
 * [New York](https://data.ny.gov)
-* ...
-
-
-## Data in Scotland
-
-Although some of the data below is open, parts of it (e.g. Historic Scotland's [One Scotland Mapping Agreement](http://data.historic-scotland.gov.uk/pls/htmldb/f?p=2100:10:0#)) are subject to non-open licenses, or are not possible to download in machine-readable format. Do check.
-
-Cities:
-
-* [Edinburgh](https://github.com/edinburghcouncil/datasets)
-* [Glasgow](http://data.glasgow.gov.uk)
-* [Aberdeen](http://www.aberdeencity.gov.uk/open_data)
-
-
-SNS & SIMD:
-
-* [Scottish Neighourhood Statistics: CSV data downloads](http://www.sns.gov.uk/Downloads/DownloadHome.aspx)
-* [Scottish Neighourhood Statistics : Linked data pilot](http://www.opendatascotland.org)
-* [Scottish Index of Multiple Deprivation as linked data](http://data.opendatascotland.org/themes/deprivation)
-* [Schools in Scotland](http://data.opendatascotland.org/data/educational-establishments)
-* [Dataset relating schools and data zones according to where the pupils from the school live](http://data.opendatascotland.org/data/education/pupils-by-school-and-datazone)
-* [Documentation on accessing OpenDataScotland data by API](http://data.opendatascotland.org/docs)
-* [Tutorial on visualising data using D3.js and SPARQL](http://schools.opendatascotland.org)
-
-
-Other Scottish Government:
-
-* [Scottish Government Data Lab space](http://labs.data.scotland.gov.uk)
-* [Government Statistics](http://www.scotland.gov.uk/Topics/Statistics)
-* [Scotland's Census Data Explorer](http://www.scotlandscensus.gov.uk/ods-web/home.html)
-* [Policies, publications and news on Law, Order & Public Safety (experimental site)](https://alpha.scotland.gov.uk/government/topics)
-
-
-
-Public Notices:
-
-* [TellMeScotland](http://www.tellmescotland.gov.uk)
-* [Public Sector Contracting Opportunities and Awards](http://www.publiccontractsscotland.gov.uk)
-
-Scottish Parliament: 
-
-* [MSP Allowances](http://mspallowances.scottish.parliament.uk)
-* [Scottish Parliament FOI Disclosure Logs](http://www.scottish.parliament.uk/help/17700.aspx)
-* [Scottish Parliament visitor numbers, 2013](https://github.com/ewan-klein/ilwhack/blob/master/ScottishParliament/Parliament%20Visitor%20Statistics%202013.csv)
-
-
-Environment:
-
-* [SEPA Linked Data](http://data.sepa.org.uk)
-* [Air Quality](http://www.scottishairquality.co.uk/data.php)
-* [Scottish local authorities CO2 emissions reductions per Capita 2005-2011](https://www.google.com/fusiontables/DataSource?docid=1Lc2PtPSbTh1OG-KSf9OoXZFmUpALEI6Gejbb4yQ#rows:id=1)
-
-
-Galleries, Libraries, Archives, Museums (GLAM):
-
-* [CultureHack Scotland 2011](http://www.welcometosync.com/hacks/2011/about/data)
-* [CultureHack Scotland 2013](http://chs2013.herokuapp.com/docs)
-
-Miscellaneous:
-
-* [Edinbuzz (mainly FOI data)](http://edinbuzz.org.uk/data-directory/)
-* [University of Edinburgh Datashare](http://datashare.is.ed.ac.uk)
-* [Data tagged with 'Scotland' on the datahub](http://datahub.io/dataset?q=scotland) NB This is largely derived from the next set, which is mostly out-of-date, or not open. :-(
-* [Scotland's Data](https://sites.google.com/site/scotlandsdata/dataandvocabularies)
 
 
 
@@ -160,6 +103,17 @@ Map APIs
 * [EDINA Map Slides (2013) (PDF download)](https://raw.github.com/ewan-klein/ilwhack/master/geo/edina-geo-apis.pdf)
 * [EDINA Map Example HTML (2013) (ZIP download)](https://raw.github.com/ewan-klein/ilwhack/master/geo/LeafletHTMLpages.zip)
 
+
+SNS Linked data:
+
+* [Scottish Index of Multiple Deprivation as linked data](http://data.opendatascotland.org/themes/deprivation)
+* [Schools in Scotland](http://data.opendatascotland.org/data/educational-establishments)
+* [Dataset relating schools and data zones according to where the pupils from the school live](http://data.opendatascotland.org/data/education/pupils-by-school-and-datazone)
+* [Documentation on accessing OpenDataScotland data by API](http://data.opendatascotland.org/docs)
+* [Tutorial on visualising data using D3.js and SPARQL](http://schools.opendatascotland.org)
+
+
+
 ## So you have a cool idea?
 
 Before investing too much time in starting a business around open data, have a look at what others have done:
@@ -185,7 +139,7 @@ Before investing too much time in starting a business around open data, have a l
 
 Please send corrections and updates to ewan [at] inf.ed.ac.uk
 
-Last edited: 18 February 2014
+Last edited: 16 October 2014
 
 
 
