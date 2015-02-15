@@ -41,12 +41,14 @@ Move to the location of the theme which most appeals to you. In Phase 1 you shou
 ## Phase 3 
 #### 14:50-15:00
 
-There are three white boards at the front of the room. Go up to one of these and write down:
+There are three whiteboards at the front of the room, with sections for the different themes. Go up to one of these and write down:
 
 1. your name
-2. your project ideas
+2. your favourite project idea
 
 Then go and take a break.
+
+*We could ask people to vote on ideas, but I think this will be too time-consuming and hard to implement on a crowded whiteboard.*
 
 
 ## Break 
@@ -62,7 +64,9 @@ Bio-break
 
 #### 15:15-16:15
 
-We'll ask about 20 or so people to come up to the front of the room and  pitch **one** project idea to the whole room. If you are pitching, you will get one minute to pitch your idea. So if you have more than one, you'll have to decide your favourite; this should also be a project that you really want to do! Each of the ideas pitched in this way will form the nucleus for a team.
+*NB tutorials are due to start at 16:30. Someone needs to liaise with each tutor and show them where to go.*
+
+We'll ask about 20 or so people to come up to the front of the room and  pitch **one** project idea to the whole room. If you are pitching, you will get one minute to pitch your favourite project idea; this should also be a project that you really want to do! Each of the ideas pitched in this way will form the nucleus for a project and project team.
 
 We'll now ask everyone who didn't pitch to join one of the idea-pitchers. Remember that there are at most **six** people in each team, so there may need to be some horse-trading and shuffling about. It might also be expedient to 'fork' a very popular project idea into variants.
 
@@ -74,6 +78,12 @@ Choose a team manager. The main duties of the manager are:
 4. Review the project plan and priorities as the week progresses and try to keep everyone on track.
 
 The manager does not have to be the idea-pitcher and does not have to be the technical lead for the project.
+
+## Wrap up
+
+Announce tutorials
+
+Announce arrangements for Tuesday
 
 
 
