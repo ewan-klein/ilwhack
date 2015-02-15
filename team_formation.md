@@ -4,7 +4,10 @@
 
 We'll do a 10 minute introduction to what kinds of teams could be formed and what kinds of things they could do. 
 
-<!-- look at winning criteria again?-->
+<span style="color:red">
+ELL style: Ewan to do intro, Arno on design, James on value and sustainability. NB Look at winning criteria again to make sure we're happy with them.
+</span> 
+
 
 ## Phase 1 (15 mins)
 
@@ -19,4 +22,8 @@ Get to know people! In this phase, you are going to introduce yourself to at lea
 
 ## Phase 2
 
-We'll demarcate areas of the room for particular themes.
+<span style="color:red">We'll demarcate areas of the room for particular themes. We need to</span>
+
+* <span style="color:red">review themes</span>
+* <span style="color:red">get big pieces of paper and bluetack to show which part of room is which</span>
+
