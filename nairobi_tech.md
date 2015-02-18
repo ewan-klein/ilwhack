@@ -40,6 +40,7 @@ Nairobi tech Twitter users:
 
 ## Other initiatives
 
+* [Climate Innovation Center Nairobi](http://www.worldbank.org/en/news/press-release/2012/09/26/climate-innovation-center-opens-nairobi-unleash-kenya-green-business-potential)
 * [Agency for Open Culture](http://openculture.agency)
 * [Open Develoment Camp](http://www.opendevelopmentcamp.org)
 * [Open Development Toolkit](http://opendevtoolkit.net/en-US/)
