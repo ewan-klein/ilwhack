@@ -42,4 +42,6 @@ Nairobi tech Twitter users:
 
 * [Agency for Open Culture](http://openculture.agency)
 * [Open Develoment Camp](http://www.opendevelopmentcamp.org)
+* [Open Development Toolkit](http://opendevtoolkit.net/en-US/)
+* [OKFN Open Development Working Group](http://open-development.okfn.org)
 
