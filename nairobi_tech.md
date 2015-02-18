@@ -38,7 +38,7 @@ Nairobi tech Twitter users:
 * <http://www.theguardian.com/world/kenya>
 
 
-## Other initiatves
+## Other initiatives
 
 * [Agency for Open Culture](http://openculture.agency)
 * [Open Develoment Camp](http://www.opendevelopmentcamp.org)
