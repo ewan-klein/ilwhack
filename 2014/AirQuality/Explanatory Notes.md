@@ -2,7 +2,7 @@
 
 Data comes from the City of Edinburgh Council's 2013 Air Quality Progress
 Report, available at
-<http://www.edinburgh.gov.uk/downloads/file/11564/laqm_progress_report_2013>.
+<http://www.edinburgh.gov.uk/download/downloads/id/342/laqm_progress_report_2013.pdf>
 
 ## Annotations
 
@@ -49,4 +49,4 @@ relevant exposure.
 data readings using a correction factor which is explained in Appendix A
 of its Update and Progress Report.
 
-[More Council data on air quality in Edinburgh](http://www.edinburgh.gov.uk/downloads/44/air_quality)
+[More Council data on air quality in Edinburgh](http://www.edinburgh.gov.uk/downloads/download/117/local_air_quality_management_reports)
